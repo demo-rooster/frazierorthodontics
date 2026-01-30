@@ -2,16 +2,16 @@
   "Home": [
     {
       "acf_fc_layout": "hero",
-      "title": "Let Your Smile Shine",
+      "title": "Transform Your Smile. Transform Your Life.",
       "text": "",
       "button": {
-        "type": "nuxt",
+        "type": "anchor",
         "style": "primary",
-        "label": "Schedule your complimentary consultation",
-        "aria_label": "Schedule your complimentary consultation",
-        "href": "",
-        "path": "/contact",
-        "hash": "#form",
+        "label": "Schedule Your Complimentary Consultation",
+        "aria_label": "Schedule a complimentary consultation",
+        "href": "https://www.frazierorthodontics.com/appointment-request",
+        "path": "",
+        "hash": "",
         "external": true,
         "include_icon": false,
         "icon": "pencil",
@@ -19,9 +19,9 @@
       },
       "media_type": "image",
       "image": {
-        "src": "https://d1tbkv3r7iprho.cloudfront.net/hero/119339227_People_and_happiness_concept_Cheerful_African_Amer.jpg",
-        "webp": "https://d1tbkv3r7iprho.cloudfront.net/hero/119339227_People_and_happiness_concept_Cheerful_African_Amer.webp",
-        "alt": "Frazier Orthodontics team in office, smiling with patient",
+        "src": "https://d1tbkv3r7iprho.cloudfront.net/hero/25182244_Pretty_girl_wearing_braces_smiling_cheerfully.jpg",
+        "webp": "https://d1tbkv3r7iprho.cloudfront.net/hero/25182244_Pretty_girl_wearing_braces_smiling_cheerfully.webp",
+        "alt": "Smiling patient in modern orthodontic office showing straight teeth",
         "aria_hidden": false,
         "bgColor": "",
         "imageBackground": false,
@@ -40,13 +40,13 @@
     },
     {
       "acf_fc_layout": "block_text_fh",
-      "title": "Welcome to Frazier Orthodontics",
+      "title": "Let Your Smile Shine",
       "paragraphs": [
         {
-          "text": "Dr. James Frazier and the team at Frazier Orthodontics understand the power of a confident, beautiful smile. We’d be honored to help you transform your life with a smile that reflects your personality and lights up every room. Let’s create something amazing—together."
+          "text": "Let Your Smile Shine. Dr. James Frazier and the team at Frazier Orthodontics understand the power of a confident, beautiful smile. We’d be honored to help you transform your life with a smile that reflects your personality and lights up every room."
         },
         {
-          "text": "Advanced Technology. Exceptional Smiles. We proudly use the Damon® Smile and offer Damon® Clear™, SPARK™ Clear Aligners, and Invisalign<sup>®</sup> to provide effective, comfortable, and efficient treatment options tailored to your goals."
+          "text": "Advanced Technology. Exceptional Smiles. We proudly use Damon® Smile and Damon® Clear systems, and offer SPARK™ and Invisalign<sup>®</sup> clear aligners — all tailored to fit your lifestyle and smile goals."
         }
       ],
       "component_options": {
@@ -60,52 +60,25 @@
     },
     {
       "acf_fc_layout": "multi_item_row",
-      "title": "Why Choose Our Office",
+      "title": "Why Choose Frazier",
       "items": [
         {
-          "title": "Personalized treatment plans",
-          "icon": "tooth-check",
-          "image": {
-            "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/222135901_A_young_Dentist_treating_a_female_Patient_in_the_d.jpg",
-            "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/222135901_A_young_Dentist_treating_a_female_Patient_in_the_d.webp",
-            "alt": "Digital orthodontic equipment and patient consultation",
-            "aria_hidden": false,
-            "bgColor": "",
-            "imageBackground": false,
-            "addLoader": false,
-            "objectPosition": "center",
-            "forceAlt": "",
-            "loading_mask": "",
-            "image_selection_hints": null
-          },
-          "text": "Personalized treatment plans tailored to your unique needs.",
-          "add_button": false,
-          "button": {
-            "button_type": "button",
-            "path": "",
-            "hash": "",
-            "href": "",
-            "label": "",
-            "aria": ""
-          }
-        },
-        {
-          "title": "Clear communication, friendly team",
+          "title": "Experienced, board-level care",
           "icon": "tooth-stars",
           "image": {
-            "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/191531294_Medical_dentist_team_in_dental_office_discuss_abou.jpg",
-            "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/191531294_Medical_dentist_team_in_dental_office_discuss_abou.webp",
-            "alt": "Patient and team member discussing treatment options",
+            "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/96012689_happy_male_dentist_at_dental_clinic_office.jpg",
+            "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/96012689_happy_male_dentist_at_dental_clinic_office.webp",
+            "alt": "Patient saving for treatment in piggy bank concept",
             "aria_hidden": false,
             "bgColor": "",
             "imageBackground": false,
             "addLoader": false,
-            "objectPosition": "center",
+            "objectPosition": "",
             "forceAlt": "",
             "loading_mask": "",
             "image_selection_hints": null
           },
-          "text": "Clear communication and a friendly, well-trained team.",
+          "text": "Dr. Frazier has provided orthodontic care since 1999 and focuses on personalized treatment plans that respect each patient's goals.",
           "add_button": false,
           "button": {
             "button_type": "button",
@@ -117,22 +90,49 @@
           }
         },
         {
-          "title": "Flexible payment options",
+          "title": "Advanced technology",
+          "icon": "tooth-check",
+          "image": {
+            "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/493853958_Dentist_scanning_woman_teeth_with_dental_intraoral.jpg",
+            "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/493853958_Dentist_scanning_woman_teeth_with_dental_intraoral.webp",
+            "alt": "High-tech orthodontic imaging and equipment",
+            "aria_hidden": false,
+            "bgColor": "",
+            "imageBackground": false,
+            "addLoader": false,
+            "objectPosition": "",
+            "forceAlt": "",
+            "loading_mask": "",
+            "image_selection_hints": null
+          },
+          "text": "We use Damon® Ultima passive self-ligating braces, iTero® digital scanning, and clear-aligner options for faster, more comfortable treatment.",
+          "add_button": false,
+          "button": {
+            "button_type": "button",
+            "path": "",
+            "hash": "",
+            "href": "",
+            "label": "",
+            "aria": ""
+          }
+        },
+        {
+          "title": "Convenient River Forest location",
           "icon": "phone",
           "image": {
-            "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/186439743_dental_care_savings_concept_beautiful_smiling_woma.jpg",
-            "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/186439743_dental_care_savings_concept_beautiful_smiling_woma.webp",
-            "alt": "Smiling patient with clear aligner case",
+            "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/1485277231_Miniature_shop_with_red_location_pins_on_top_macro.jpg",
+            "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/1485277231_Miniature_shop_with_red_location_pins_on_top_macro.webp",
+            "alt": "Friendly clinical team with patient in treatment room",
             "aria_hidden": false,
             "bgColor": "",
             "imageBackground": false,
             "addLoader": false,
-            "objectPosition": "center",
+            "objectPosition": "",
             "forceAlt": "",
             "loading_mask": "",
             "image_selection_hints": null
           },
-          "text": "Competitive pricing with flexible payment options and assistance with insurance paperwork.",
+          "text": "Our River Forest office offers free parking, easy transit access, and scheduling by phone or online to make visits easy.",
           "add_button": false,
           "button": {
             "button_type": "button",
@@ -144,49 +144,22 @@
           }
         },
         {
-          "title": "Convenient scheduling",
-          "icon": "phone",
-          "image": {
-            "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/356046302_Couple_and_little_daughter_sit_on_sofa_using_pc_wa.jpg",
-            "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/356046302_Couple_and_little_daughter_sit_on_sofa_using_pc_wa.webp",
-            "alt": "Front desk scheduling and friendly team member on phone",
-            "aria_hidden": false,
-            "bgColor": "",
-            "imageBackground": false,
-            "addLoader": false,
-            "objectPosition": "center",
-            "forceAlt": "",
-            "loading_mask": "",
-            "image_selection_hints": null
-          },
-          "text": "Flexible scheduling with on-time appointments, including after-school and evening hours.",
-          "add_button": false,
-          "button": {
-            "button_type": "button",
-            "path": "",
-            "hash": "",
-            "href": "",
-            "label": "",
-            "aria": ""
-          }
-        },
-        {
-          "title": "Convenient location & free parking",
+          "title": "Caring, patient-focused team",
           "icon": "tooth-two-v1",
           "image": {
-            "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/285911421_Client_of_private_dentistry_smiling_while_singing.jpg",
-            "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/285911421_Client_of_private_dentistry_smiling_while_singing.webp",
-            "alt": "Office exterior and convenient patient parking",
+            "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/239725802_group_of_professional_doctors.jpg",
+            "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/239725802_group_of_professional_doctors.webp",
+            "alt": "Orthodontic team interacting with a relaxed patient",
             "aria_hidden": false,
             "bgColor": "",
             "imageBackground": false,
             "addLoader": false,
-            "objectPosition": "center",
+            "objectPosition": "",
             "forceAlt": "",
             "loading_mask": "",
             "image_selection_hints": null
           },
-          "text": "Convenient location in River Forest with easy parking for patients.",
+          "text": "Our team focuses on comfort and clear communication so every patient feels heard and supported through treatment.",
           "add_button": false,
           "button": {
             "button_type": "button",
@@ -231,14 +204,14 @@
         {
           "has_heading": false,
           "heading": "",
-          "text": "Dr. James Frazier brings a unique blend of expertise, dedication, and community spirit to his River Forest practice. He trained at the University of Pennsylvania Dental School and completed his orthodontic residency at the University of Illinois at Chicago. Dr. Frazier is committed to precision, personalized care, and giving back to the community."
+          "text": "Dr. James Frazier is a specialist in Orthodontics and Dentofacial Orthopedics. He earned his DMD at the University of Pennsylvania and completed his orthodontic residency (MS) at the University of Illinois at Chicago. Dr. Frazier treats children, teens, and adults with individualized plans using modern technology to deliver comfortable, predictable treatment, and he brings a community-focused approach to every patient interaction."
         }
       ],
       "accordion": [],
       "image": {
         "src": "https://www.frazierorthodontics.com/hub_sites/frazier-james3/www/assets/uploads/images/meet.jpg",
-        "webp": "",
-        "alt": "Dr. James Frazier, orthodontist at Frazier Orthodontics",
+        "webp": "https://www.frazierorthodontics.com/hub_sites/frazier-james3/www/assets/uploads/images/meet.jpg",
+        "alt": "Dr. James Frazier, orthodontist — headshot",
         "aria_hidden": false,
         "bgColor": "",
         "imageBackground": false,
@@ -249,19 +222,19 @@
         "image_selection_hints": null
       },
       "video": {
-        "type": "embedded",
+        "type": "file",
         "src": ""
       },
       "buttons": [
         {
           "button": {
-            "type": "nuxt",
+            "type": "anchor",
             "style": "secondary",
             "label": "Meet Dr. Frazier",
-            "aria_label": "Learn about Dr. James Frazier",
-            "href": "",
-            "path": "/about",
-            "hash": "#meet-dr-james-frazier",
+            "aria_label": "Meet Dr. James Frazier",
+            "href": "https://www.frazierorthodontics.com/meet-dr-james-frazier",
+            "path": "",
+            "hash": "",
             "external": true,
             "include_icon": false,
             "icon": "pencil",
@@ -292,10 +265,10 @@
     },
     {
       "acf_fc_layout": "block_masonary_grid",
-      "title": "Treatment Options",
+      "title": "Explore Our Treatments",
       "paragraphs": [
         {
-          "text": "Explore our treatment options, from Invisalign<sup>®</sup> and Spark™ clear aligners to Damon® braces and advanced digital scanning with iTero®, all delivered with personalized care."
+          "text": "From clear aligners to self-ligating braces and digital scanning, we offer options to fit different lifestyles and treatment goals."
         }
       ],
       "button": {
@@ -306,9 +279,9 @@
         "href": "",
         "path": "/treatments",
         "hash": "",
-        "external": true,
+        "external": false,
         "include_icon": false,
-        "icon": "tooth-two-v2",
+        "icon": "tooth-outline",
         "color": "black"
       },
       "links": true,
@@ -318,7 +291,7 @@
           "image": {
             "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/127410354_Invisible_aligners_plastic_braces_dentistry.jpg",
             "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/127410354_Invisible_aligners_plastic_braces_dentistry.webp",
-            "alt": "Patient smiling while holding Invisalign aligners",
+            "alt": "Patient holding Invisalign<sup>®</sup> clear aligners",
             "aria_hidden": false,
             "bgColor": "",
             "imageBackground": false,
@@ -334,9 +307,9 @@
         },
         {
           "image": {
-            "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/135513818_Clear_braces_-_invisible_brackets_for_teeth_straig.jpg",
-            "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/135513818_Clear_braces_-_invisible_brackets_for_teeth_straig.webp",
-            "alt": "Damon braces patient smiling",
+            "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/196907428.jpg",
+            "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/196907428.webp",
+            "alt": "Damon® bracket close-up on tooth",
             "aria_hidden": false,
             "bgColor": "",
             "imageBackground": false,
@@ -346,7 +319,7 @@
             "loading_mask": "",
             "image_selection_hints": null
           },
-          "title": "Damon® Ultima (Damon® Smile)",
+          "title": "Damon® Ultima",
           "path": "/treatments",
           "hash": "#damon-ultima"
         },
@@ -354,7 +327,7 @@
           "image": {
             "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/211024714_Beautiful_Patient_Holding_Clear_Orthodontic_Aligne.jpg",
             "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/211024714_Beautiful_Patient_Holding_Clear_Orthodontic_Aligne.webp",
-            "alt": "Spark Clear Aligners displayed in case",
+            "alt": "Spark™ clear aligner on model teeth",
             "aria_hidden": false,
             "bgColor": "",
             "imageBackground": false,
@@ -370,9 +343,9 @@
         },
         {
           "image": {
-            "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/167612220_Young_woman_patient_standing_in_x-ray_machine.jpg",
-            "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/167612220_Young_woman_patient_standing_in_x-ray_machine.webp",
-            "alt": "iTero digital scanner used for no-goop digital impressions",
+            "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/361445351_Cone_Beam_CT_Scanner_machine_CBCT_3D_xray_for_face.jpg",
+            "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/361445351_Cone_Beam_CT_Scanner_machine_CBCT_3D_xray_for_face.webp",
+            "alt": "iTero® digital scanner being used for a digital impression",
             "aria_hidden": false,
             "bgColor": "",
             "imageBackground": false,
@@ -382,9 +355,9 @@
             "loading_mask": "",
             "image_selection_hints": null
           },
-          "title": "iTero® Digital Impressions / DentalMonitoring",
+          "title": "iTero® Digital",
           "path": "/treatments",
-          "hash": "#itero-digital-impressions"
+          "hash": "#itero-digital"
         }
       ],
       "component_options": {
@@ -398,8 +371,8 @@
     },
     {
       "acf_fc_layout": "multi_item_testimonial",
-      "title": "What Our Patients Are Saying",
-      "review_text": "Read more patient stories",
+      "title": "Patient Testimonials",
+      "review_text": "Read more reviews on our Testimonials page",
       "links": [
         {
           "href": "https://www.frazierorthodontics.com/testimonials",
@@ -408,20 +381,16 @@
       ],
       "testimonials": [
         {
-          "author": "Paul T.",
-          "testimonial": "“I had been conscious of the spaces between my teeth for years... I only had the braces on for 18 months. By this time, in my late 40s, that 18 months went by quickly. I’m pleased with the results and I wish I had gone ahead with the braces 10 years earlier … but better late than never.”"
-        },
-        {
-          "author": "Elissa B.",
-          "testimonial": "“Our family could not have asked for a better experience than what we had with Dr. Frazier and his staff. My teenaged son and daughter both agree that they had a great experience.”"
-        },
-        {
           "author": "Lynn T.",
-          "testimonial": "“Two of our children received braces from Frazier Orthodontics. The results are wonderful; they both have beautiful new smiles... Dr. Frazier and his entire staff were always professional, caring, and very efficient.”"
+          "testimonial": "“Two of our children received braces from Frazier Orthodontics. The results are wonderful; they both have beautiful new smiles. The entire process was done very efficiently with convenient office hours, punctual services, and a length of treatment exactly what Dr. Frazier predicted. Dr. Frazier and his entire staff were always professional, caring, and very efficient. A great experience with wonderful results!”"
         },
         {
           "author": "Dana F.",
-          "testimonial": "“It was a wonderful experience being a patient at Frazier Orthodontics. The entire staff was nice, caring, and knowledgeable. Dr. Frazier was great in explaining in detail my case and the process I needed to complete to get my desired results.”"
+          "testimonial": "“It was a wonderful experience being a patient at Frazier Orthodontics. The entire staff was nice, caring, and knowledgeable. Dr. Frazier was great in explaining in detail my case and the process I needed to complete to get my desired results. Thanks to Dr. Frazier and his staff, I have a wonderful smile that I show every day! Thank you so much!!”"
+        },
+        {
+          "author": "Elissa B.",
+          "testimonial": "“Our family could not have asked for a better experience than what we had with Dr. Frazier and his staff. My teenaged son and daughter both agree that they had a great experience. I can only describe Dr. Frazier and his staff as professional, experienced, accommodating, and patient. Thanks for giving my children wonderful smiles!”"
         }
       ],
       "component_options": {
@@ -436,25 +405,17 @@
     },
     {
       "acf_fc_layout": "multi_use_banner",
-      "title": "Follow us for smile updates & videos",
+      "title": "Follow Our Socials",
       "content_block": "social_block",
       "text": "",
       "social_links": [
-        {
-          "href": "https://www.youtube.com/watch?v=Q3zbW7g2qls",
-          "icon": "youtube"
-        },
         {
           "href": "https://www.youtube.com/channel/UCAVM2n9-i1YlZf6d2Pe0kIQ",
           "icon": "youtube"
         },
         {
-          "href": "https://www.youtube.com/watch?v=Ca69CuWqHCw",
-          "icon": "youtube"
-        },
-        {
-          "href": "https://www.youtube.com/watch?v=uV-9_GNIcbk",
-          "icon": "youtube"
+          "href": "https://maps.app.goo.gl/oYY8wLLspDiP9dTj7",
+          "icon": "google"
         }
       ],
       "email": "",
@@ -482,9 +443,9 @@
       "add_texture": false,
       "linear_gradient": "",
       "image": {
-        "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/403234519_work_using_texting_cell_phone_typing_computerchatt.jpg",
-        "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/403234519_work_using_texting_cell_phone_typing_computerchatt.webp",
-        "alt": "Orthodontic treatment video still",
+        "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/119902799_Young_people_with_gadgets_hanging_out.jpg",
+        "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/119902799_Young_people_with_gadgets_hanging_out.webp",
+        "alt": "Parents with kids relaxing in front of home",
         "aria_hidden": false,
         "bgColor": "",
         "imageBackground": false,
@@ -509,8 +470,8 @@
       "button": {
         "type": "nuxt",
         "style": "primary",
-        "label": "Schedule Consultation",
-        "aria_label": "schedule consultation",
+        "label": "Book Now",
+        "aria_label": "Book a complimentary consultation",
         "href": "",
         "path": "/contact",
         "hash": "#form",
@@ -530,9 +491,9 @@
       "add_texture": false,
       "linear_gradient": "",
       "image": {
-        "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/256192470_Close_up_photo_wondered_she_her_he_him_his_lady_gu.jpg",
-        "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/256192470_Close_up_photo_wondered_she_her_he_him_his_lady_gu.webp",
-        "alt": "Family smiling after orthodontic treatment",
+        "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/202645547_Portrait_of_dentist_standing_with_arms_crossed.jpg",
+        "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/202645547_Portrait_of_dentist_standing_with_arms_crossed.webp",
+        "alt": "Enjoying time together",
         "aria_hidden": false,
         "bgColor": "",
         "imageBackground": false,
@@ -550,13 +511,13 @@
     {
       "seo": {
         "page_title": "Home - Frazier Orthodontics",
-        "page_description": "Frazier Orthodontics in River Forest offers Damon®, Spark™, and Invisalign® treatments, digital iTero® scanning, flexible scheduling, and complimentary consults",
-        "page_keywords": "orthodontics, Invisalign, Damon, Spark aligners, iTero, River Forest orthodontist, clear aligners, braces",
+        "page_description": "Frazier Orthodontics in River Forest, IL offers Damon® and Invisalign® treatments, digital scanning, and caring, personalized orthodontic care.",
+        "page_keywords": "orthodontics, Invisalign, Damon, Spark aligners, iTero, River Forest, Frazier Orthodontics",
         "additional_settings": false,
         "social_meta": {
           "og_meta": {
-            "title": "Frazier Orthodontics — River Forest, IL",
-            "description": "Frazier Orthodontics offers modern orthodontic care with clear aligners, Damon® braces, and digital scanning. Schedule a complimentary consultation.",
+            "title": "Frazier Orthodontics — Transform Your Smile",
+            "description": "Frazier Orthodontics in River Forest, IL offers Damon® and Invisalign® treatments, digital scanning, and caring, personalized orthodontic care.",
             "image": "https://www.frazierorthodontics.com/assets/images/slideshow/slide1.jpg"
           }
         }
@@ -566,7 +527,7 @@
   "About": [
     {
       "acf_fc_layout": "hero",
-      "title": "Transforming Smiles at Every Age—Because Everyone Deserves to Smile with Pride",
+      "title": "About Frazier Orthodontics",
       "text": "",
       "button": {
         "type": "nuxt",
@@ -583,14 +544,14 @@
       },
       "media_type": "image",
       "image": {
-        "src": "https://d1tbkv3r7iprho.cloudfront.net/hero/470429703_Head_shot_close_up_portrait_of_happy_young_Indian.jpg",
-        "webp": "https://d1tbkv3r7iprho.cloudfront.net/hero/470429703_Head_shot_close_up_portrait_of_happy_young_Indian.webp",
+        "src": "https://d1tbkv3r7iprho.cloudfront.net/hero/191531294_Medical_dentist_team_in_dental_office_discuss_abou.jpg",
+        "webp": "https://d1tbkv3r7iprho.cloudfront.net/hero/191531294_Medical_dentist_team_in_dental_office_discuss_abou.webp",
         "alt": "Team of orthodontic professionals smiling in the Lakeshore Orthodontics office lobby",
         "aria_hidden": false,
         "bgColor": "",
         "imageBackground": false,
         "addLoader": false,
-        "objectPosition": "center center",
+        "objectPosition": "",
         "forceAlt": "",
         "loading_mask": "",
         "image_selection_hints": null
@@ -607,10 +568,16 @@
       "title": "Our Mission",
       "paragraphs": [
         {
-          "text": "We are dedicated to making sure that you receive the quality orthodontic care you deserve. We take a personalized, patient-first approach—combining genuine compassion with the latest orthodontic technology to create custom treatment plans tailored to your unique needs and goals."
+          "text": "At Frazier Orthodontics our mission is to deliver top-quality, personalized orthodontic care in a warm, patient-centered environment. We focus on clear communication and a comfortable experience from the first consultation through retention."
         },
         {
-          "text": "Your comfort is our priority, and exceeding your expectations is our standard. From initial consultation through retention, we guide every patient with clear explanations, thoughtful scheduling, and a team that treats you like family."
+          "text": "We combine leading-edge orthodontic technology with compassionate service to create healthy, confident smiles for children, teens, and adults across River Forest, Oak Park, and the greater Chicago area."
+        },
+        {
+          "text": "Our team provides transparent treatment options, including braces and Invisalign<sup>®</sup>, flexible scheduling, and support with insurance and payment plans so care is convenient and affordable for every family."
+        },
+        {
+          "text": "Through individualized treatment plans, gentle techniques, and a friendly office atmosphere, we aim to help each patient leave our practice with not only a better smile, but also greater confidence."
         }
       ],
       "component_options": {
@@ -631,14 +598,14 @@
       "title": "Meet Dr. James Frazier",
       "paragraphs": [],
       "image": {
-        "src": "https://www.frazierorthodontics.com/assets/images/spotlight/meet2.jpg",
+        "src": "https://www.frazierorthodontics.com/hub_sites/frazier-james3/www/assets/uploads/images/meet.jpg",
         "webp": "",
-        "alt": "Dr. James Frazier's professional headshot",
+        "alt": "Dr. James Frazier headshot",
         "aria_hidden": false,
         "bgColor": "",
         "imageBackground": false,
         "addLoader": false,
-        "objectPosition": "center center",
+        "objectPosition": "",
         "forceAlt": "",
         "loading_mask": "",
         "image_selection_hints": null
@@ -647,66 +614,66 @@
       "buttons": [],
       "tabs": [
         {
-          "header": "About Dr. Frazier",
+          "header": "Professional",
           "paragraphs": [
             {
-              "text": "Dr. James Frazier — Orthodontist, is passionate about helping patients of all ages achieve smiles that boost confidence and support long-term oral health. He and his team use a patient-first approach and modern orthodontic technologies to design treatment plans that fit each patient's lifestyle."
+              "text": "Dr. James Frazier, DMD, MS, founded Frazier Orthodontics in 1999 and brings decades of experience treating patients of all ages. He emphasizes a patient-first approach, designing treatment plans that fit each person’s goals and lifestyle."
             },
             {
-              "text": "Whether braces or clear aligners are the best option, Dr. Frazier guides every step from the initial consultation through retention, focusing on comfort, clear communication, and predictable care. Schedule your complimentary consultation at https://www.frazierorthodontics.com/appointment-request."
+              "text": "Dr. Frazier uses modern systems and digital workflows, including iTero scans, clear aligner treatment, and contemporary bracket systems, to deliver efficient, comfortable care with predictable results."
             }
           ],
           "image": {
-            "src": "https://www.frazierorthodontics.com/assets/images/spotlight/meet4.jpg",
+            "src": "https://www.frazierorthodontics.com/assets/images/spotlight/meet2.jpg",
             "webp": "",
-            "alt": "Dr. James Frazier and a patient smiling together",
+            "alt": "Dr. Frazier consulting with a patient",
             "aria_hidden": false,
             "bgColor": "",
             "imageBackground": false,
             "addLoader": false,
-            "objectPosition": "center center",
+            "objectPosition": "",
             "forceAlt": "",
             "loading_mask": "",
             "image_selection_hints": null
           }
         },
         {
-          "header": "Education & Approach",
+          "header": "Education",
           "paragraphs": [
             {
-              "text": "Dr. Frazier stays current with evidence-based orthodontic techniques and digital workflows, including Damon brackets and modern clear aligner systems. His treatment philosophy emphasizes efficient, comfortable care tailored to each patient's needs."
+              "text": "Dr. Frazier earned his Doctor of Dental Medicine (DMD) at the University of Pennsylvania and completed a Master of Science in Oral Sciences at the University of Illinois at Chicago. His training underpins a commitment to evidence-based, modern orthodontic care."
             }
           ],
           "image": {
             "src": "https://www.frazierorthodontics.com/assets/images/spotlight/meet3.jpg",
             "webp": "",
-            "alt": "Dr. James Frazier holding a small dog and smiling",
+            "alt": "Dr. Frazier in the treatment room",
             "aria_hidden": false,
             "bgColor": "",
             "imageBackground": false,
             "addLoader": false,
-            "objectPosition": "center center",
+            "objectPosition": "",
             "forceAlt": "",
             "loading_mask": "",
             "image_selection_hints": null
           }
         },
         {
-          "header": "Outside the Office",
+          "header": "Personal",
           "paragraphs": [
             {
-              "text": "When he’s not caring for patients, Dr. Frazier enjoys community involvement and spending time with patients and neighbors throughout River Forest and surrounding communities. He values building long-term relationships that make treatment easier and more rewarding for every family he treats."
+              "text": "Outside the office Dr. Frazier enjoys travel with his family, walking Chicago’s lakefront with his dogs, and supporting local causes such as the Animal Care League in Oak Park. He values community connection and looks forward to helping neighbors achieve healthier, more confident smiles."
             }
           ],
           "image": {
             "src": "https://www.frazierorthodontics.com/assets/images/spotlight/meet4.jpg",
             "webp": "",
-            "alt": "Dr. James Frazier and a young patient smiling",
+            "alt": "Dr. Frazier with a patient",
             "aria_hidden": false,
             "bgColor": "",
             "imageBackground": false,
             "addLoader": false,
-            "objectPosition": "center center",
+            "objectPosition": "",
             "forceAlt": "",
             "loading_mask": "",
             "image_selection_hints": null
@@ -732,13 +699,13 @@
     },
     {
       "acf_fc_layout": "single_image_slider",
-      "title": "Our Office",
+      "title": "Office Photo Tour",
       "carousel_aria": "Office Tour Carousel",
       "slides": [
         {
-          "src": "https://www.frazierorthodontics.com/assets/images/spotlight/s1.jpg",
+          "src": "https://www.frazierorthodontics.com/assets/images/office-tour/01.jpg",
           "webp": "",
-          "alt": "Office interior with patient chair",
+          "alt": "Office tour photo 1",
           "aria_hidden": false,
           "bgColor": "",
           "imageBackground": false,
@@ -748,9 +715,9 @@
           "loading_mask": "#eef6f8"
         },
         {
-          "src": "https://www.frazierorthodontics.com/assets/images/spotlight/s2.jpg",
+          "src": "https://www.frazierorthodontics.com/assets/images/office-tour/02.jpg",
           "webp": "",
-          "alt": "Welcoming office reception area",
+          "alt": "Office tour photo 2",
           "aria_hidden": false,
           "bgColor": "",
           "imageBackground": false,
@@ -760,9 +727,9 @@
           "loading_mask": "#eef6f8"
         },
         {
-          "src": "https://www.frazierorthodontics.com/assets/images/spotlight/s3.jpg",
+          "src": "https://www.frazierorthodontics.com/assets/images/office-tour/03.jpg",
           "webp": "",
-          "alt": "Treatment room with modern equipment",
+          "alt": "Office tour photo 3",
           "aria_hidden": false,
           "bgColor": "",
           "imageBackground": false,
@@ -772,9 +739,9 @@
           "loading_mask": "#eef6f8"
         },
         {
-          "src": "https://www.frazierorthodontics.com/assets/images/spotlight/s4.jpg",
+          "src": "https://www.frazierorthodontics.com/assets/images/office-tour/04.jpg",
           "webp": "",
-          "alt": "Doctor consulting with a patient in the office",
+          "alt": "Office tour photo 4",
           "aria_hidden": false,
           "bgColor": "",
           "imageBackground": false,
@@ -784,9 +751,9 @@
           "loading_mask": "#eef6f8"
         },
         {
-          "src": "https://www.frazierorthodontics.com/assets/images/spotlight/s5.jpg",
+          "src": "https://www.frazierorthodontics.com/assets/images/office-tour/05.jpg",
           "webp": "",
-          "alt": "Comfortable patient seating area",
+          "alt": "Office tour photo 5",
           "aria_hidden": false,
           "bgColor": "",
           "imageBackground": false,
@@ -796,9 +763,45 @@
           "loading_mask": "#eef6f8"
         },
         {
-          "src": "https://www.frazierorthodontics.com/assets/images/spotlight/s6.jpg",
+          "src": "https://www.frazierorthodontics.com/assets/images/office-tour/06.jpg",
           "webp": "",
-          "alt": "Digital iTero scanner used for 3D imaging",
+          "alt": "Office tour photo 6",
+          "aria_hidden": false,
+          "bgColor": "",
+          "imageBackground": false,
+          "addLoader": false,
+          "objectPosition": "",
+          "forceAlt": "",
+          "loading_mask": "#eef6f8"
+        },
+        {
+          "src": "https://www.frazierorthodontics.com/assets/images/office-tour/07.jpg",
+          "webp": "",
+          "alt": "Office tour photo 7",
+          "aria_hidden": false,
+          "bgColor": "",
+          "imageBackground": false,
+          "addLoader": false,
+          "objectPosition": "",
+          "forceAlt": "",
+          "loading_mask": "#eef6f8"
+        },
+        {
+          "src": "https://www.frazierorthodontics.com/assets/images/office-tour/08.jpg",
+          "webp": "",
+          "alt": "Office tour photo 8",
+          "aria_hidden": false,
+          "bgColor": "",
+          "imageBackground": false,
+          "addLoader": false,
+          "objectPosition": "",
+          "forceAlt": "",
+          "loading_mask": "#eef6f8"
+        },
+        {
+          "src": "https://www.frazierorthodontics.com/assets/images/office-tour/09.jpg",
+          "webp": "",
+          "alt": "Office tour photo 9",
           "aria_hidden": false,
           "bgColor": "",
           "imageBackground": false,
@@ -827,7 +830,7 @@
         {
           "has_heading": false,
           "heading": "",
-          "text": "Dr. Frazier and the Frazier Orthodontics team strive to create positive experiences for patients and families in the communities we serve. We are proud to treat patients from River Forest, Oak Park, Forest Park, Elmwood Park, Riverside, Melrose Park, and surrounding Chicago communities, and we work to make orthodontic care accessible and comfortable for patients of all ages."
+          "text": "Dr. Frazier is passionate about giving back to the River Forest community. The practice supports local organizations such as the Animal Care League in Oak Park and runs a patient referral program to thank families who recommend friends. If you have a community event or school program, please reach out to discuss partnership opportunities."
         }
       ],
       "accordion": [],
@@ -839,7 +842,7 @@
         "bgColor": "",
         "imageBackground": false,
         "addLoader": false,
-        "objectPosition": "center center",
+        "objectPosition": "",
         "forceAlt": "",
         "loading_mask": "",
         "image_selection_hints": null
@@ -879,8 +882,8 @@
       "button": {
         "type": "nuxt",
         "style": "primary",
-        "label": "Schedule Consultation",
-        "aria_label": "schedule consultation",
+        "label": "Book Now",
+        "aria_label": "Book a complimentary consultation",
         "href": "",
         "path": "/contact",
         "hash": "#form",
@@ -900,9 +903,9 @@
       "add_texture": false,
       "linear_gradient": "",
       "image": {
-        "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/243765470_Smiling_female_designer_standing_in_an_modern_offi.jpg",
-        "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/243765470_Smiling_female_designer_standing_in_an_modern_offi.webp",
-        "alt": "Family smiling after orthodontic treatment",
+        "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/884003416_Close-up_of_a_handshake_between_a_doctor_and_a_pat.jpg",
+        "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/884003416_Close-up_of_a_handshake_between_a_doctor_and_a_pat.webp",
+        "alt": "Enjoying time together",
         "aria_hidden": false,
         "bgColor": "",
         "imageBackground": false,
@@ -920,14 +923,14 @@
     {
       "seo": {
         "page_title": "About Us | Frazier Orthodontics",
-        "page_description": "Learn how Frazier Orthodontics delivers personalized, modern orthodontic care for children, teens, and adults in River Forest and the greater Chicago area.",
-        "page_keywords": "Frazier Orthodontics, River Forest orthodontist, braces, Invisalign, Damon, clear aligners",
+        "page_description": "Learn about Frazier Orthodontics, Dr. James Frazier, and our mission to provide personalized orthodontic care in River Forest and the greater Chicago area.",
+        "page_keywords": "Frazier Orthodontics, Orthodontics, Braces, Invisalign, River Forest, Dr. James Frazier",
         "additional_settings": false,
         "social_meta": {
           "og_meta": {
             "title": "About Us | Frazier Orthodontics",
-            "description": "Personalized, modern orthodontic care for River Forest, Oak Park, and surrounding communities. Schedule a complimentary consultation today.",
-            "image": "https://www.frazierorthodontics.com/assets/images/spotlight/home.jpg"
+            "description": "Personalized, modern orthodontic care from Dr. James Frazier serving River Forest, Oak Park, and the Chicago area.",
+            "image": "https://d25xczrsvvsqdg.cloudfront.net/mysmithortho-treatments-hero.jpg"
           }
         }
       }
@@ -939,23 +942,23 @@
       "title": "Get Started",
       "text": "",
       "button": {
-        "type": "anchor",
+        "type": "custom",
         "style": "primary",
-        "label": "Request an Appointment",
-        "aria_label": "request an appointment online",
-        "href": "https://www.frazierorthodontics.com/appointment-request",
+        "label": "",
+        "aria_label": "",
+        "href": "",
         "path": "",
         "hash": "",
-        "external": true,
+        "external": false,
         "include_icon": false,
         "icon": "phone",
         "color": "black"
       },
       "media_type": "image",
       "image": {
-        "src": "https://d1tbkv3r7iprho.cloudfront.net/hero/84442233_Father_With_Daughter_At_Reception_Of_Dentists_Surg.jpg",
-        "webp": "https://d1tbkv3r7iprho.cloudfront.net/hero/84442233_Father_With_Daughter_At_Reception_Of_Dentists_Surg.webp",
-        "alt": "Smiling family welcomed at Lakeshore Orthodontics front desk",
+        "src": "https://d1tbkv3r7iprho.cloudfront.net/hero/48850703_Teenage_girl_happy_to_visit_the_dentist.jpg",
+        "webp": "https://d1tbkv3r7iprho.cloudfront.net/hero/48850703_Teenage_girl_happy_to_visit_the_dentist.webp",
+        "alt": "Dr. James Frazier with a patient (hero)",
         "aria_hidden": false,
         "bgColor": "",
         "imageBackground": false,
@@ -979,18 +982,18 @@
         {
           "has_heading": false,
           "heading": "",
-          "text": "Begin with a complimentary consultation at Frazier Orthodontics where Dr. Frazier and the team perform a complete evaluation including diagnostic photos, a panoramic X‑ray, and a 3D iTero digital scan so you can see a clear view of your teeth and learn which treatment options may work best for you."
+          "text": "Your first visit to Frazier Orthodontics is a complimentary consultation with Dr. Frazier. We review your dental and medical history, take diagnostic photos and a panoramic X‑ray, and perform a thorough oral exam to assess your orthodontic needs."
         },
         {
           "has_heading": false,
           "heading": "",
-          "text": "We will review your dental and medical history, complete a bite assessment, outline a personalized treatment plan and timeline, and go over financing and insurance options; same‑day starts are available for patients who are ready to begin."
+          "text": "We use an advanced 3D iTero digital scan for an interactive view of your teeth and bite and then discuss treatment options, financing, and insurance. After outlining a personalized plan, we can often begin treatment the same day when appropriate. Ready to schedule? Request your free consultation online at https://www.frazierorthodontics.com/appointment-request or call (708) 366‑6595."
         }
       ],
       "accordion": [],
       "image": {
-        "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/136172958_Girl_taking_digital_3D_panoramic_dental_x-ray.jpg",
-        "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/136172958_Girl_taking_digital_3D_panoramic_dental_x-ray.webp",
+        "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/167612220_Young_woman_patient_standing_in_x-ray_machine.jpg",
+        "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/167612220_Young_woman_patient_standing_in_x-ray_machine.webp",
         "alt": "Father with daughter at reception of dentist's surgery",
         "aria_hidden": false,
         "bgColor": "",
@@ -1031,10 +1034,10 @@
       "title": "Financing & Insurance",
       "paragraphs": [
         {
-          "text": "We will help you build a payment plan that fits your budget, offering in‑office financing, a pay‑in‑full discount, and partnerships with third‑party lenders like CareCredit to make treatment accessible. Our treatment coordinator can walk you through options and explain any available discounts."
+          "text": "We will work with you to create a payment plan that fits your individual budget. Our practice accepts credit and debit cards, and we offer flexible payment options to spread treatment costs."
         },
         {
-          "text": "Frazier Orthodontics accepts many major insurers and will file claims on your behalf to simplify the process; we accept credit and debit cards and can assist with FSA, HSA, or HRA reimbursement questions. For specific coverage questions or CareCredit details, call 708-366-6595 or request an appointment online."
+          "text": "If your insurance covers any portion of orthodontic care, we will file and process claims on your behalf. We work with many major providers, including MetLife, Aetna, United Concordia, Guardian, Cigna, Delta Dental, Humana, Blue Cross/Blue Shield, and United Healthcare. For questions or to schedule your complimentary consultation, call (708) 366‑6595."
         }
       ],
       "component_options": {
@@ -1052,12 +1055,12 @@
     },
     {
       "acf_fc_layout": "image_text",
-      "title": "Health History Forms",
+      "title": "Health History & Patient Forms",
       "paragraphs": [
         {
           "has_heading": false,
           "heading": "",
-          "text": "To streamline your first visit, please complete your medical and dental history in advance; downloadable PDF forms are available for children and adults, and you may also submit your information through our online appointment request and intake form before arriving."
+          "text": "Please complete patient intake forms before your first appointment to help us deliver safe, personalized care. You can download the appropriate medical/dental history form or submit information online prior to your visit."
         }
       ],
       "accordion": [],
@@ -1083,8 +1086,8 @@
           "button": {
             "type": "anchor",
             "style": "secondary",
-            "label": "Child Medical/Dental History Form (PDF)",
-            "aria_label": "child medical dental history form pdf",
+            "label": "Patient Form (Child) — PDF",
+            "aria_label": "patient form child pdf",
             "href": "https://www.frazierorthodontics.com/hub_sites/frazier-james3/www/assets/uploads/files/Child%20Medical_Dental%20History%20Forms.pdf",
             "path": "",
             "hash": "",
@@ -1098,8 +1101,8 @@
           "button": {
             "type": "anchor",
             "style": "secondary",
-            "label": "Adult Medical/Dental History Form (PDF)",
-            "aria_label": "adult medical dental history form pdf",
+            "label": "Patient Form (Adult) — PDF",
+            "aria_label": "patient form adult pdf",
             "href": "https://www.frazierorthodontics.com/hub_sites/frazier-james3/www/assets/uploads/files/Adult%20Medical_Dental%20History%20Forms.pdf",
             "path": "",
             "hash": "",
@@ -1113,8 +1116,8 @@
           "button": {
             "type": "anchor",
             "style": "secondary",
-            "label": "Online Appointment & Intake Form",
-            "aria_label": "online appointment and intake form",
+            "label": "Request Appointment / Online Form",
+            "aria_label": "request appointment online",
             "href": "https://www.frazierorthodontics.com/appointment-request",
             "path": "",
             "hash": "",
@@ -1155,8 +1158,8 @@
       "button": {
         "type": "nuxt",
         "style": "primary",
-        "label": "Schedule Consultation",
-        "aria_label": "schedule consultation",
+        "label": "Book Now",
+        "aria_label": "Book a complimentary consultation",
         "href": "",
         "path": "/contact",
         "hash": "#form",
@@ -1176,9 +1179,9 @@
       "add_texture": false,
       "linear_gradient": "",
       "image": {
-        "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/392753246_Young_latin_student_girl_smiling_happy_holding_fol.jpg",
-        "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/392753246_Young_latin_student_girl_smiling_happy_holding_fol.webp",
-        "alt": "Family smiling after orthodontic treatment",
+        "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/68999753_Pediatric_dentist_examining_a_little_boys_teeth.jpg",
+        "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/68999753_Pediatric_dentist_examining_a_little_boys_teeth.webp",
+        "alt": "Enjoying time together",
         "aria_hidden": false,
         "bgColor": "",
         "imageBackground": false,
@@ -1196,14 +1199,14 @@
     {
       "seo": {
         "page_title": "Get Started | Frazier Orthodontics",
-        "page_description": "Begin your smile journey with a complimentary consultation at Frazier Orthodontics. Complete forms online or download PDFs and schedule your appointment today.",
-        "page_keywords": "orthodontics, consultation, patient forms, Frazier Orthodontics, Invisalign",
+        "page_description": "Start your journey to a confident smile with a complimentary consultation at Frazier Orthodontics. Find forms, insurance info, and schedule online.",
+        "page_keywords": "orthodontics, first visit, patient forms, financing, Frazier Orthodontics",
         "additional_settings": false,
         "social_meta": {
           "og_meta": {
             "title": "Get Started | Frazier Orthodontics",
-            "description": "Begin your smile journey with a complimentary consultation at Frazier Orthodontics. Complete forms online or download PDFs and schedule your appointment today.",
-            "image": "https://www.frazierorthodontics.com/assets/images/slideshow/slide1.jpg"
+            "description": "Start your journey to a confident smile with a complimentary consultation at Frazier Orthodontics. Find forms, insurance info, and schedule online.",
+            "image": "https://www.frazierorthodontics.com/assets/images/spotlight/home.jpg"
           }
         }
       }
@@ -1212,10 +1215,10 @@
   "Treatments": [
     {
       "acf_fc_layout": "hero",
-      "title": "Let Your Smile Shine",
+      "title": "Treatments",
       "text": "",
       "button": {
-        "type": "anchor",
+        "type": "custom",
         "style": "primary",
         "label": "",
         "aria_label": "",
@@ -1224,14 +1227,14 @@
         "hash": "",
         "external": false,
         "include_icon": false,
-        "icon": "pencil",
+        "icon": "tooth-two-v2",
         "color": "black"
       },
       "media_type": "image",
       "image": {
-        "src": "https://d1tbkv3r7iprho.cloudfront.net/hero/25182244_Pretty_girl_wearing_braces_smiling_cheerfully.jpg",
-        "webp": "https://d1tbkv3r7iprho.cloudfront.net/hero/25182244_Pretty_girl_wearing_braces_smiling_cheerfully.webp",
-        "alt": "Smiling patients of all ages at Lakeshore Orthodontics",
+        "src": "https://d1tbkv3r7iprho.cloudfront.net/hero/16042402_opened_mouth_and_dentists_hands_with_instruments.jpg",
+        "webp": "https://d1tbkv3r7iprho.cloudfront.net/hero/16042402_opened_mouth_and_dentists_hands_with_instruments.webp",
+        "alt": "Smiling patient with Dr. Frazier",
         "aria_hidden": false,
         "bgColor": "",
         "imageBackground": false,
@@ -1239,7 +1242,9 @@
         "objectPosition": "",
         "forceAlt": "",
         "loading_mask": "",
-        "image_selection_hints": null
+        "image_selection_hints": {
+          "context_category": "Treatments Hero"
+        }
       },
       "video": {
         "src": "",
@@ -1250,61 +1255,67 @@
     },
     {
       "acf_fc_layout": "image_text",
-      "title": "Early Two‑Phase Treatment",
+      "title": "Two‑Phase / Early Treatment",
       "paragraphs": [
         {
           "has_heading": false,
           "heading": "",
-          "text": "Two‑phase orthodontic treatment combines early guidance of jaw growth with later tooth alignment to produce stable, long‑lasting results. Phase One focuses on creating room and guiding development so future treatment is simpler and gentler. After a monitoring period we begin Phase Two, which aligns every tooth into its final position, usually with full braces."
+          "text": "Two‑phase (early) orthodontic treatment maximizes the opportunity for an ideal, stable result by combining tooth straightening with guidance of jaw growth. Early treatment can prevent the need for extractions or later surgery and helps create room for permanent teeth to erupt properly. Phase One commonly uses expanders and partial braces; after a resting and eruption period, Phase Two aligns all permanent teeth with full braces."
         }
       ],
       "accordion": [
         {
-          "header": "Phase One: Guiding Jaw Growth",
+          "header": "Phase One & Phase Two",
           "paragraphs": [
             {
-              "text": "Phase One, typically around ages six to eight, uses appliances that guide jaw development, correct crossbites and create space for permanent teeth. Early action can reduce the need for extractions or more invasive procedures later."
-            }
-          ],
-          "image": {
-            "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/320433616_portrait_of_young_teenage_girl_isolated_showing_br.jpg",
-            "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/320433616_portrait_of_young_teenage_girl_isolated_showing_br.webp",
-            "alt": "Young patient receiving early orthodontic intervention",
-            "image_selection_hints": null
-          }
-        },
-        {
-          "header": "Resting and Monitoring",
-          "paragraphs": [
-            {
-              "text": "After Phase One we monitor eruption and growth, making selective decisions — such as baby‑tooth extractions when needed — to ensure the best timing for final alignment."
+              "text": "Phase One focuses on guiding jaw growth and creating space for permanent teeth, often with expanders or partial braces. After an eruption period we begin Phase Two to align all permanent teeth with comprehensive braces, helping reduce complexity and treatment time later."
             }
           ],
           "image": {
             "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/29222435_Cute_Latino_Girl_Smiling_with_Braces.jpg",
             "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/29222435_Cute_Latino_Girl_Smiling_with_Braces.webp",
-            "alt": "Smiling family enjoying time together",
-            "image_selection_hints": null
+            "alt": "Young patient receiving early orthodontic intervention",
+            "image_selection_hints": {
+              "context_category": "Initial Visit"
+            }
           }
         },
         {
-          "header": "Phase Two: Final Alignment",
+          "header": "Why early care helps",
           "paragraphs": [
             {
-              "text": "Phase Two places full upper and lower braces or aligners to precisely position every tooth. Treatment finishes with retainers to preserve the results and a healthy, confident smile."
+              "text": "Benefits include correcting and guiding jaw growth, creating room for crowded permanent teeth, and reducing the chance of extractions or orthognathic surgery later. Records typically include models, X‑rays, and photographs to build an individualized plan."
             }
           ],
           "image": {
-            "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/29456065_Hispanic_Father_Hugging_Kids.jpg",
-            "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/29456065_Hispanic_Father_Hugging_Kids.webp",
-            "alt": "Young patient receiving early orthodontic intervention",
-            "image_selection_hints": null
+            "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/491614289_Model_of_jaw_with_braces_on_blue_background.jpg",
+            "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/491614289_Model_of_jaw_with_braces_on_blue_background.webp",
+            "alt": "Smiling family enjoying time together",
+            "image_selection_hints": {
+              "context_category": "All Ages"
+            }
+          }
+        },
+        {
+          "header": "Before & After",
+          "paragraphs": [
+            {
+              "text": "Early intervention often makes later phases simpler and shorter, with predictable improvements after Phase One and a smooth transition to comprehensive care when permanent teeth arrive."
+            }
+          ],
+          "image": {
+            "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/1434442_happy_teen_girl_smiling.jpg",
+            "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/1434442_happy_teen_girl_smiling.webp",
+            "alt": "Phase 1 early treatment example",
+            "image_selection_hints": {
+              "context_category": "Initial Visit"
+            }
           }
         }
       ],
       "image": {
-        "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/491614289_Model_of_jaw_with_braces_on_blue_background.jpg",
-        "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/491614289_Model_of_jaw_with_braces_on_blue_background.webp",
+        "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/788237113_A_group_of_a_boy_with_braces_and_ear_buds_in_his_e.jpg",
+        "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/788237113_A_group_of_a_boy_with_braces_and_ear_buds_in_his_e.webp",
         "alt": "Smiling family enjoying time together",
         "aria_hidden": false,
         "bgColor": "",
@@ -1313,7 +1324,9 @@
         "objectPosition": "",
         "forceAlt": "",
         "loading_mask": "",
-        "image_selection_hints": null
+        "image_selection_hints": {
+          "context_category": "All Ages"
+        }
       },
       "video": {
         "type": "embedded",
@@ -1321,7 +1334,7 @@
       },
       "buttons": [],
       "component_options": {
-        "hash": "early-two-phase-treatment",
+        "hash": "all-ages",
         "component_padding": "half",
         "component_margins": "none",
         "hide_component": false
@@ -1347,48 +1360,24 @@
         {
           "has_heading": false,
           "heading": "",
-          "text": "Orthodontic treatment is not just for teens. Adults pursue care for shifted or worn teeth, incomplete prior treatment, bite problems and aesthetic goals. Modern options such as self‑ligating braces, clear ceramic brackets and clear aligners make adult treatment efficient, discreet and tailored to busy lives."
+          "text": "Orthodontic treatment is not just for teens. Adults can benefit from modern braces and clear aligners to correct crowding, gaps, and bite issues. Treatment times typically range from one to three years depending on severity and chosen method; patient cooperation, including wearing aligners or following elastic protocols, plays a major role in success."
         },
         {
           "has_heading": false,
           "heading": "",
-          "text": "We’ll review appliance choices, timing and expected results during a consultation so you can choose the option that best fits your goals and lifestyle."
-        }
-      ],
-      "accordion": [
-        {
-          "header": "Why Adults Choose Treatment",
-          "paragraphs": [
-            {
-              "text": "Improved oral hygiene, corrected bite forces to reduce wear, and enhanced confidence are common reasons adults seek orthodontics. Discreet options help keep treatment low‑profile."
-            }
-          ],
-          "image": {
-            "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/175198219_Woman_in_braces.jpg",
-            "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/175198219_Woman_in_braces.webp",
-            "alt": "Adult patient receiving orthodontic treatment",
-            "image_selection_hints": null
-          }
+          "text": "We offer options suited to adult lifestyles: Damon® braces, Damon® Clear, Spark™, and Invisalign<sup>®</sup>. iTero® digital scans replace goop impressions for comfort and precision."
         },
         {
-          "header": "Patient Experience",
-          "paragraphs": [
-            {
-              "text": "Many adult patients report minimal disruption to work and daily life. Appointments are planned for efficiency and comfort, and we tailor retention strategies to protect your investment."
-            }
-          ],
-          "image": {
-            "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/163056473_Glad_girl_using_orthodontic_device_for_adjusting_t.jpg",
-            "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/163056473_Glad_girl_using_orthodontic_device_for_adjusting_t.webp",
-            "alt": "Smiling family enjoying time together",
-            "image_selection_hints": null
-          }
+          "has_heading": false,
+          "heading": "",
+          "text": "“I had been conscious of the spaces between my teeth for years... I only had the braces on for 18 months. By this time, in my late 40s, that 18 months went by quickly. I’m pleased with the results.” — Paul T."
         }
       ],
+      "accordion": [],
       "image": {
-        "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/81317876_Braces_Teeth_Female_Smile.jpg",
-        "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/81317876_Braces_Teeth_Female_Smile.webp",
-        "alt": "Adult patient receiving orthodontic treatment",
+        "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/251234585_Portrait_of_beautiful_Asian_patient_woman_holding.jpg",
+        "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/251234585_Portrait_of_beautiful_Asian_patient_woman_holding.webp",
+        "alt": "Adult patient smiling after treatment",
         "aria_hidden": false,
         "bgColor": "",
         "imageBackground": false,
@@ -1396,7 +1385,9 @@
         "objectPosition": "",
         "forceAlt": "",
         "loading_mask": "",
-        "image_selection_hints": null
+        "image_selection_hints": {
+          "context_category": "Adult"
+        }
       },
       "video": {
         "type": "embedded",
@@ -1411,7 +1402,7 @@
       },
       "reverse": true,
       "has_buttons": false,
-      "has_accordion": true,
+      "has_accordion": false,
       "is_dynamic": false,
       "use_video": false,
       "large_image": false,
@@ -1425,48 +1416,52 @@
     },
     {
       "acf_fc_layout": "image_text",
-      "title": "Damon Braces Overview",
+      "title": "Braces — Damon systems",
       "paragraphs": [
         {
           "has_heading": false,
           "heading": "",
-          "text": "We offer advanced passive self‑ligating braces such as the Damon systems. These use a slide mechanism instead of elastic ties to reduce friction, which can allow gentler forces, more efficient tooth movement and fewer adjustments in many cases."
+          "text": "We offer advanced passive self‑ligating Damon® systems, including Damon Smile and Damon Ultima™. These tie‑less brackets use a sliding mechanism that reduces friction and force, enabling gentler, often faster tooth movement with fewer adjustments and improved comfort."
         }
       ],
       "accordion": [
         {
-          "header": "How Damon Works",
+          "header": "Damon® Benefits",
           "paragraphs": [
             {
-              "text": "The passive self‑ligating design reduces resistance so teeth can move with lighter forces. That often improves comfort and can help shorten treatment time while achieving precise finishing and bite correction."
+              "text": "The tie‑less design reduces the need for elastic ties, lowers treatment forces, and can mean fewer office visits and a more comfortable experience while delivering precise results."
             }
           ],
           "image": {
-            "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/196907428.jpg",
-            "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/196907428.webp",
-            "alt": "Dental Checkup with Braces",
-            "image_selection_hints": null
+            "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/81317876_Braces_Teeth_Female_Smile.jpg",
+            "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/81317876_Braces_Teeth_Female_Smile.webp",
+            "alt": "Damon braces in clinical setting",
+            "image_selection_hints": {
+              "context_category": "Teen"
+            }
           }
         },
         {
-          "header": "Damon Clear and Aesthetics",
+          "header": "Ceramic & Aesthetic Options",
           "paragraphs": [
             {
-              "text": "Damon Clear offers a discreet, stain‑resistant option for patients who want the effectiveness of fixed appliances with improved aesthetics."
+              "text": "Ceramic options blend with tooth color for a less noticeable look without sacrificing effectiveness, giving teens and adults a discreet choice."
             }
           ],
           "image": {
-            "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/59969131_Young_black_woman_smiling_with_braces.jpg",
-            "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/59969131_Young_black_woman_smiling_with_braces.webp",
-            "alt": "Smiling Woman with Clear Aligner",
-            "image_selection_hints": null
+            "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/180646541_Healthy_smile_woman_with_clear_brackets.jpg",
+            "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/180646541_Healthy_smile_woman_with_clear_brackets.webp",
+            "alt": "Clear ceramic option visual",
+            "image_selection_hints": {
+              "context_category": "Teen"
+            }
           }
         }
       ],
       "image": {
         "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/180646554_Womans_smile_with_clear_dental_braces_on_teeth.jpg",
         "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/180646554_Womans_smile_with_clear_dental_braces_on_teeth.webp",
-        "alt": "Two stylish smiling teens taking selfie with braces",
+        "alt": "Two stylish smiling teens with braces",
         "aria_hidden": false,
         "bgColor": "",
         "imageBackground": false,
@@ -1474,11 +1469,13 @@
         "objectPosition": "",
         "forceAlt": "",
         "loading_mask": "",
-        "image_selection_hints": null
+        "image_selection_hints": {
+          "context_category": "Treatments Hero"
+        }
       },
       "video": {
         "type": "embedded",
-        "src": "https://www.youtube.com/watch?v=Q3zbW7g2qls"
+        "src": ""
       },
       "buttons": [],
       "component_options": {
@@ -1491,7 +1488,7 @@
       "has_buttons": false,
       "has_accordion": true,
       "is_dynamic": false,
-      "use_video": true,
+      "use_video": false,
       "large_image": false,
       "has_background": true,
       "background": "bg1",
@@ -1503,24 +1500,24 @@
     },
     {
       "acf_fc_layout": "image_text",
-      "title": "Invisalign<sup>®</sup> Clear Aligners",
+      "title": "Invisalign<sup>®</sup> & Clear Aligners",
       "paragraphs": [
         {
           "has_heading": false,
           "heading": "",
-          "text": "Invisalign<sup>®</sup> aligners are a removable, nearly invisible option that can treat crowding, gaps, crossbites and many bite issues. Aligners are made from SmartTrack® material and are typically worn 20–22 hours per day for predictable tooth movement."
+          "text": "Frazier Orthodontics is a certified Invisalign<sup>®</sup> provider. Clear aligners made from SmartTrack® material offer a nearly invisible, removable option suitable for many cases, including crowding, crossbites, open bites, and gaps."
         },
         {
           "has_heading": false,
           "heading": "",
-          "text": "We use iTero digital scans to plan treatment and show you a virtual preview of expected results. Aligners make brushing and flossing simple and are a popular choice for adults and teens who want discretion."
+          "text": "Treatment uses iTero® digital scans and a custom plan so you can preview movements. Patients typically wear aligners 20–22 hours per day and are seen about every six weeks for progress checks. Final retention with Vivera® or custom retainers helps protect results."
         }
       ],
       "accordion": [],
       "image": {
-        "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/192367510_Invisible_dental_orthodontics.jpg",
-        "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/192367510_Invisible_dental_orthodontics.webp",
-        "alt": "Close-up of Invisalign aligners being placed on teeth",
+        "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/412396002_Invisalign.jpg",
+        "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/412396002_Invisalign.webp",
+        "alt": "Close-up of clear aligner",
         "aria_hidden": false,
         "bgColor": "",
         "imageBackground": false,
@@ -1528,11 +1525,13 @@
         "objectPosition": "",
         "forceAlt": "",
         "loading_mask": "",
-        "image_selection_hints": null
+        "image_selection_hints": {
+          "context_category": "Adult"
+        }
       },
       "video": {
         "type": "embedded",
-        "src": "https://www.youtube.com/watch?v=IBIAev9OX6U"
+        "src": ""
       },
       "buttons": [],
       "component_options": {
@@ -1562,19 +1561,19 @@
         {
           "has_heading": false,
           "heading": "",
-          "text": "Severe jaw discrepancies such as pronounced underbites, deep overbites or significant asymmetry sometimes require orthognathic surgery combined with orthodontics to restore function and facial balance. When surgery is indicated we coordinate closely with oral and maxillofacial surgeons to plan precise, staged care."
+          "text": "Severe bite or jaw discrepancies may require coordinated orthodontic and orthognathic surgery. We collaborate closely with surgeons to correct jaw position, relieve TMJ symptoms when present, and restore function and esthetics."
         },
         {
           "has_heading": false,
           "heading": "",
-          "text": "Early orthodontic intervention can reduce the chance that surgery will be necessary later, but in cases where surgery is the best path, thorough planning and teamwork lead to predictable, life‑changing results."
+          "text": "Early orthodontic guidance can sometimes prevent the need for surgery later. When surgery is necessary, we plan precisely to deliver predictable, life‑changing outcomes with a coordinated timeline of braces and surgical care."
         }
       ],
       "accordion": [],
       "image": {
-        "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/361445351_Cone_Beam_CT_Scanner_machine_CBCT_3D_xray_for_face.jpg",
-        "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/361445351_Cone_Beam_CT_Scanner_machine_CBCT_3D_xray_for_face.webp",
-        "alt": "Orthodontic patient receiving orthognathic surgical consultation",
+        "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/558669347_Braces_on_teeth_lower_and_upper_dental_jaw_model.jpg",
+        "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/558669347_Braces_on_teeth_lower_and_upper_dental_jaw_model.webp",
+        "alt": "Orthognathic surgical consultation",
         "aria_hidden": false,
         "bgColor": "",
         "imageBackground": false,
@@ -1582,7 +1581,9 @@
         "objectPosition": "",
         "forceAlt": "",
         "loading_mask": "",
-        "image_selection_hints": null
+        "image_selection_hints": {
+          "context_category": "Surgery"
+        }
       },
       "video": {
         "type": "embedded",
@@ -1616,24 +1617,19 @@
         {
           "has_heading": false,
           "heading": "",
-          "text": "Retainers preserve the results of orthodontic treatment. We offer custom removable and fixed retainers and provide guidance to help your new smile last a lifetime."
+          "text": "After active treatment, custom retainers help keep teeth in their final positions. We provide clear removable retainers, Hawley retainers, and fixed/bonded retainers with care instructions for cleaning, wear, and storage to protect your results."
         },
         {
           "has_heading": false,
           "heading": "",
-          "text": "To reduce long‑term replacement costs and inconvenience, we offer a Retainer Protection Program. The plan covers repairs and replacements for a decade with a small copayment."
-        },
-        {
-          "has_heading": false,
-          "heading": "",
-          "text": "Program highlights: Full Comprehensive Treatment RPP cost $880 (option to split into four monthly payments of $220). Limited treatment (one arch) $440. Coverage includes removable retainers ($200/arch), repairs and replacement of fixed retainers, up to four sets per year, 10‑year term, $25 copay per replacement/repair. All purchases final."
+          "text": "Our Retainer Protection Program offers long‑term coverage for replacements and repairs. Options include a comprehensive plan and a limited arch plan, with clear details on fees, copays, and terms to fit your needs."
         }
       ],
       "accordion": [],
       "image": {
-        "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/251234585_Portrait_of_beautiful_Asian_patient_woman_holding.jpg",
-        "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/251234585_Portrait_of_beautiful_Asian_patient_woman_holding.webp",
-        "alt": "Beautiful young Asian woman smiling and holding orthodontic retainer",
+        "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/332277013_Young_african_american_woman_smiling_happy_holding.jpg",
+        "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/332277013_Young_african_american_woman_smiling_happy_holding.webp",
+        "alt": "Patient holding clear retainer",
         "aria_hidden": false,
         "bgColor": "",
         "imageBackground": false,
@@ -1641,7 +1637,9 @@
         "objectPosition": "",
         "forceAlt": "",
         "loading_mask": "",
-        "image_selection_hints": null
+        "image_selection_hints": {
+          "context_category": "Retainers"
+        }
       },
       "video": {
         "type": "embedded",
@@ -1670,76 +1668,68 @@
     },
     {
       "acf_fc_layout": "image_text",
-      "title": "Advanced Technology",
+      "title": "Technology",
       "paragraphs": [
         {
           "has_heading": false,
           "heading": "",
-          "text": "We use modern digital tools to improve precision, comfort and predictability throughout treatment. These technologies shorten appointments, improve planning and enhance patient communication."
+          "text": "We use state‑of‑the‑art digital tools to improve precision, comfort, and predictability across all treatments. Digital scanning, accelerated‑care devices, and advanced bracket systems help us deliver efficient, comfortable care."
         }
       ],
       "accordion": [
         {
-          "header": "iTero® Digital Scanning",
+          "header": "iTero® Digital Impression System",
           "paragraphs": [
             {
-              "text": "Fast, radiation‑free iTero scans capture precise 3D images used for aligner design and treatment planning, eliminating messy impressions and improving accuracy."
-            }
-          ],
-          "image": {
-            "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/175504582_Dental_3d_scanner_and_monitor_in_the_dentists_offi.jpg",
-            "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/175504582_Dental_3d_scanner_and_monitor_in_the_dentists_offi.webp",
-            "alt": "iTero digital scanner in use during orthodontic consultation",
-            "image_selection_hints": null
-          }
-        },
-        {
-          "header": "Digital Remote Monitoring",
-          "paragraphs": [
-            {
-              "text": "Remote monitoring platforms allow patients to submit short scans from home so the doctor can track progress between visits. This reduces in‑office appointments while keeping care on schedule."
+              "text": "Fast, radiation‑free 3D scans replace traditional impressions and feed directly into treatment planning and aligner fabrication for a more comfortable, precise experience."
             }
           ],
           "image": {
             "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/271991695_Young_woman_ready_to_computer_3d_tomography_of_tee.jpg",
             "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/271991695_Young_woman_ready_to_computer_3d_tomography_of_tee.webp",
-            "alt": "Remote scan kit for monitoring orthodontic progress",
-            "image_selection_hints": null
+            "alt": "iTero digital scanner in use",
+            "image_selection_hints": {
+              "context_category": "Initial Visit"
+            }
           }
         },
         {
-          "header": "PROPEL / VPro+",
+          "header": "PROPEL / VPro",
           "paragraphs": [
             {
-              "text": "Devices such as VPro+ can help seat aligners and may accelerate aligner therapy when clinically appropriate, improving fit and efficiency."
+              "text": "PROPEL devices and the VPro/VPro+ adjuncts can stimulate bone remodeling to accelerate movement and help seat clear aligners, improving efficiency for many patients."
             }
           ],
           "image": {
-            "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/253618446_Dental_3d_scanner_and_monitor_in_the_dentists_offi.jpg",
-            "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/253618446_Dental_3d_scanner_and_monitor_in_the_dentists_offi.webp",
-            "alt": "VPro device used to assist aligner seating",
-            "image_selection_hints": null
+            "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/254480058_A_dentist_examines_a_patients_x-ray_picture.jpg",
+            "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/254480058_A_dentist_examines_a_patients_x-ray_picture.webp",
+            "alt": "VPro device",
+            "image_selection_hints": {
+              "context_category": "Technology"
+            }
           }
         },
         {
-          "header": "Damon Ultima & Advanced Bracket Systems",
+          "header": "Damon Ultima™ / Self‑ligating brackets",
           "paragraphs": [
             {
-              "text": "Self‑ligating systems such as Damon Ultima offer precise tooth control and lighter forces, which can improve comfort and reduce adjustment frequency for many patients."
+              "text": "Damon Ultima™ is an advanced self‑ligating system that uses a sliding mechanism for lighter forces and fewer adjustments, designed for comfortable, efficient tooth movement."
             }
           ],
           "image": {
-            "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/360565145_Dental_consultation_with_3D_tomography_image.jpg",
-            "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/360565145_Dental_consultation_with_3D_tomography_image.webp",
-            "alt": "Ultima bracket and archwire system",
-            "image_selection_hints": null
+            "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/309653968_Dental_technician_removing_jaw_model_from_a_3d_pri.jpg",
+            "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/309653968_Dental_technician_removing_jaw_model_from_a_3d_pri.webp",
+            "alt": "Damon Ultima logo",
+            "image_selection_hints": {
+              "context_category": "Technology"
+            }
           }
         }
       ],
       "image": {
-        "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/254480058_A_dentist_examines_a_patients_x-ray_picture.jpg",
-        "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/254480058_A_dentist_examines_a_patients_x-ray_picture.webp",
-        "alt": "Modern dentist office interior with advanced technology",
+        "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/175504582_Dental_3d_scanner_and_monitor_in_the_dentists_offi.jpg",
+        "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/175504582_Dental_3d_scanner_and_monitor_in_the_dentists_offi.webp",
+        "alt": "Modern dental office interior with advanced technology",
         "aria_hidden": false,
         "bgColor": "",
         "imageBackground": false,
@@ -1747,7 +1737,9 @@
         "objectPosition": "",
         "forceAlt": "",
         "loading_mask": "",
-        "image_selection_hints": null
+        "image_selection_hints": {
+          "context_category": "Experienced"
+        }
       },
       "video": {
         "type": "embedded",
@@ -1784,8 +1776,8 @@
       "button": {
         "type": "nuxt",
         "style": "primary",
-        "label": "Schedule Consultation",
-        "aria_label": "schedule consultation",
+        "label": "Book Now",
+        "aria_label": "Book a complimentary consultation",
         "href": "",
         "path": "/contact",
         "hash": "#form",
@@ -1805,9 +1797,9 @@
       "add_texture": false,
       "linear_gradient": "",
       "image": {
-        "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/158720629_Dentist_female_posing_at_consultation.jpg",
-        "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/158720629_Dentist_female_posing_at_consultation.webp",
-        "alt": "Family smiling after orthodontic treatment",
+        "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/459389900_Young_smiling_happy_couple_two_friends_family_man.jpg",
+        "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/459389900_Young_smiling_happy_couple_two_friends_family_man.webp",
+        "alt": "Enjoying time together",
         "aria_hidden": false,
         "bgColor": "",
         "imageBackground": false,
@@ -1825,14 +1817,14 @@
     {
       "seo": {
         "page_title": "Treatments | Frazier Orthodontics",
-        "page_description": "Explore Frazier Orthodontics' treatments for all ages: early care, Damon braces, Invisalign®, retainers and advanced digital technology.",
-        "page_keywords": "orthodontic treatments, Damon braces, Invisalign, retainers, iTero, orthognathic surgery, adult orthodontics, early treatment",
+        "page_description": "Explore Frazier Orthodontics' treatments for children, teens, and adults, including Damon braces, Invisalign®, retainers, surgery coordination, and advanced 3D‑",
+        "page_keywords": "Frazier Orthodontics, orthodontic treatments, Damon braces, Invisalign, retainers, orthognathic surgery, iTero, PROPEL, clear aligners, adult orthodontics, early treatment",
         "additional_settings": false,
         "social_meta": {
           "og_meta": {
             "title": "Treatments | Frazier Orthodontics",
-            "description": "Explore Frazier Orthodontics' treatments for all ages: early care, Damon braces, Invisalign®, retainers and advanced digital technology.",
-            "image": "https://d2jdm9a19iwpm4.cloudfront.net/treatments/treatments-hero.jpg"
+            "description": "Explore Frazier Orthodontics' treatments for children, teens, and adults, including Damon braces, Invisalign®, retainers, surgery coordination, and advanced 3D‑",
+            "image": "https://www.frazierorthodontics.com/assets/images/spotlight/home.jpg"
           }
         }
       }
@@ -1841,17 +1833,17 @@
   "Contact": [
     {
       "acf_fc_layout": "hero",
-      "title": "Contact Us - Frazier Orthodontics",
+      "title": "Contact Us",
       "text": "",
       "button": {
-        "type": "anchor",
+        "type": "custom",
         "style": "primary",
-        "label": "Request an Appointment",
-        "aria_label": "Request an Appointment",
-        "href": "https://www.frazierorthodontics.com/appointment-request",
+        "label": "",
+        "aria_label": "",
+        "href": "",
         "path": "",
         "hash": "",
-        "external": true,
+        "external": false,
         "include_icon": false,
         "icon": "pencil",
         "color": "black"
@@ -1860,7 +1852,7 @@
       "image": {
         "src": "https://d1tbkv3r7iprho.cloudfront.net/hero/600329009_Man_making_an_appointment_with_medical_staffs_at_r.jpg",
         "webp": "https://d1tbkv3r7iprho.cloudfront.net/hero/600329009_Man_making_an_appointment_with_medical_staffs_at_r.webp",
-        "alt": "Dr. James Frazier consulting with a patient in the office",
+        "alt": "Frazier Orthodontics hero — Dr. Frazier with patient",
         "aria_hidden": false,
         "bgColor": "",
         "imageBackground": false,
@@ -1869,7 +1861,7 @@
         "forceAlt": "",
         "loading_mask": "",
         "image_selection_hints": {
-          "context_category": "New Patients Hero"
+          "context_category": "Contact Hero"
         }
       },
       "video": {
@@ -1881,7 +1873,7 @@
     },
     {
       "acf_fc_layout": "map",
-      "title": "Location & Directions - River Forest",
+      "title": "Location & Directions",
       "component_options": {
         "hash": "",
         "component_padding": "half",
@@ -1908,13 +1900,13 @@
     {
       "seo": {
         "page_title": "Contact Frazier Orthodontics | River Forest Orthodontist",
-        "page_description": "Contact Frazier Orthodontics in River Forest, IL to schedule a complimentary consultation. Call (708) 366-6595 or request an appointment online.",
+        "page_description": "Contact Frazier Orthodontics in River Forest, IL. Schedule a complimentary consultation or request an appointment online or by phone at (708) 366-6595.",
         "page_keywords": "Frazier Orthodontics contact, River Forest orthodontist, orthodontic appointment, appointment request",
         "additional_settings": false,
         "social_meta": {
           "og_meta": {
             "title": "Contact Frazier Orthodontics | River Forest Orthodontist",
-            "description": "Contact Frazier Orthodontics in River Forest, IL to schedule a complimentary consultation. Call (708) 366-6595 or request an appointment online.",
+            "description": "Contact Frazier Orthodontics in River Forest, IL. Schedule a complimentary consultation or request an appointment online or by phone at (708) 366-6595.",
             "image": "https://www.frazierorthodontics.com/assets/images/spotlight/home.jpg"
           }
         }
@@ -1924,7 +1916,7 @@
   "FAQ": [
     {
       "acf_fc_layout": "hero",
-      "title": "Frequently Asked Questions",
+      "title": "Frequently Asked Questions About Orthodontics",
       "text": "",
       "button": {
         "type": "custom",
@@ -1941,8 +1933,8 @@
       },
       "media_type": "image",
       "image": {
-        "src": "https://d1tbkv3r7iprho.cloudfront.net/hero/479238532_Man_Dental_Teeth_Question_Mark.jpg",
-        "webp": "https://d1tbkv3r7iprho.cloudfront.net/hero/479238532_Man_Dental_Teeth_Question_Mark.webp",
+        "src": "https://d1tbkv3r7iprho.cloudfront.net/hero/175198219_Woman_in_braces.jpg",
+        "webp": "https://d1tbkv3r7iprho.cloudfront.net/hero/175198219_Woman_in_braces.webp",
         "alt": "Patient smiling with orthodontic braces in our Emeryville office",
         "aria_hidden": false,
         "bgColor": "",
@@ -1952,7 +1944,7 @@
         "forceAlt": "",
         "loading_mask": "",
         "image_selection_hints": {
-          "context_category": "FAQ Hero"
+          "context_category": "Treatments Hero"
         }
       },
       "video": {
@@ -1969,7 +1961,7 @@
         {
           "has_heading": false,
           "heading": "",
-          "text": "Find answers to common questions about braces, aligners, emergencies, and getting started with Frazier Orthodontics."
+          "text": "Find answers to common questions about orthodontic treatment, home care, scheduling, and patient forms at Frazier Orthodontics in River Forest, IL."
         }
       ],
       "accordion": [
@@ -1977,14 +1969,14 @@
           "header": "What is orthodontics?",
           "paragraphs": [
             {
-              "text": "Orthodontics, also called dentofacial orthopedics, is a dental specialty focused on diagnosing, preventing, and treating dental and facial irregularities to create healthy alignment and function."
+              "text": "Orthodontics (also referred to as dentofacial orthopedics) is a specialized form of dentistry that focuses on the diagnosis, prevention, and treatment of dental and facial abnormalities."
             }
           ],
           "has_media": false,
           "media_type": "image",
           "image": {
-            "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/343321244_Young_beautiful_brunette_woman_holding_dental_alig.jpg",
-            "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/343321244_Young_beautiful_brunette_woman_holding_dental_alig.webp",
+            "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/29456065_Hispanic_Father_Hugging_Kids.jpg",
+            "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/29456065_Hispanic_Father_Hugging_Kids.webp",
             "alt": "Happy Family Portrait",
             "aria_hidden": false,
             "bgColor": "",
@@ -1994,7 +1986,7 @@
             "forceAlt": "",
             "loading_mask": "",
             "image_selection_hints": {
-              "context_category": "Treatments Hero"
+              "context_category": "FAQ Hero"
             }
           },
           "video": {
@@ -2006,14 +1998,14 @@
           "header": "What is an orthodontist?",
           "paragraphs": [
             {
-              "text": "An orthodontist is a dental specialist who completes dental school plus two to three years of additional residency training to learn how to move teeth and align jaws safely and effectively."
+              "text": "Orthodontists are specialists in moving teeth and aligning jaws. All orthodontists are dentists first; after dental school they complete an accredited orthodontic residency program, which involves two to three years of additional specialized training."
             }
           ],
           "has_media": false,
           "media_type": "image",
           "image": {
-            "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/123911299_Male_hiker_holding_a_map_in_forest.jpg",
-            "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/123911299_Male_hiker_holding_a_map_in_forest.webp",
+            "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/343321244_Young_beautiful_brunette_woman_holding_dental_alig.jpg",
+            "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/343321244_Young_beautiful_brunette_woman_holding_dental_alig.webp",
             "alt": "Couple Enjoying Time Together",
             "aria_hidden": false,
             "bgColor": "",
@@ -2035,14 +2027,14 @@
           "header": "What’s the best age to visit the orthodontist?",
           "paragraphs": [
             {
-              "text": "People of any age can benefit from orthodontic care. The American Association of Orthodontists recommends a first check by about age seven so we can monitor development and plan early if needed. Adults are treated commonly as well."
+              "text": "The American Association of Orthodontists recommends that children first visit an orthodontist around age seven. Early evaluations let us monitor development and plan any needed treatment; orthodontic care is also common for teens and adults, with about one in five patients over age 21."
             }
           ],
           "has_media": false,
           "media_type": "image",
           "image": {
-            "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/181602708_Happy_smile_of_young_woman_with_dental_braces.jpg",
-            "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/181602708_Happy_smile_of_young_woman_with_dental_braces.webp",
+            "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/479238532_Man_Dental_Teeth_Question_Mark.jpg",
+            "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/479238532_Man_Dental_Teeth_Question_Mark.webp",
             "alt": "Collaborative Team Spirit Moment",
             "aria_hidden": false,
             "bgColor": "",
@@ -2052,7 +2044,7 @@
             "forceAlt": "",
             "loading_mask": "",
             "image_selection_hints": {
-              "context_category": "Kid friendly"
+              "context_category": "All Ages"
             }
           },
           "video": {
@@ -2061,18 +2053,47 @@
           }
         },
         {
-          "header": "How long will I wear braces?",
+          "header": "How can I take care of my teeth if I’m wearing braces or a retainer?",
           "paragraphs": [
             {
-              "text": "Treatment time depends on your individual case. Many patients complete care in 6 to 30 months, with a typical range around 18 to 21 months. We’ll give you a personalized timeline at your first visit."
+              "text": "Always remember to brush your teeth after every meal and floss at least once a day. Use toothpaste that contains fluoride. Keep your retainer clean by brushing it gently and soaking as instructed. Avoid sugary, sticky, chewy, and very hard foods that can damage braces. Continue routine six-month dental checkups with your general dentist."
             }
           ],
           "has_media": false,
           "media_type": "image",
           "image": {
-            "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/258870461_Happy_girl_and_her_dad_during_a_dental_appointment.jpg",
-            "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/258870461_Happy_girl_and_her_dad_during_a_dental_appointment.webp",
-            "alt": "Collaborative Team Spirit Moment",
+            "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/285911421_Client_of_private_dentistry_smiling_while_singing.jpg",
+            "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/285911421_Client_of_private_dentistry_smiling_while_singing.webp",
+            "alt": "Smiling Man Working at Desk",
+            "aria_hidden": false,
+            "bgColor": "",
+            "imageBackground": false,
+            "addLoader": false,
+            "objectPosition": "",
+            "forceAlt": "",
+            "loading_mask": "",
+            "image_selection_hints": {
+              "context_category": "Cleaning"
+            }
+          },
+          "video": {
+            "type": "embedded",
+            "src": ""
+          }
+        },
+        {
+          "header": "If I get braces, how long do I have to wear them?",
+          "paragraphs": [
+            {
+              "text": "Treatment times can take anywhere from six to 30 months, but most standard treatments last about 18–21 months. We’ll review a personalized timeline during your first appointment."
+            }
+          ],
+          "has_media": false,
+          "media_type": "image",
+          "image": {
+            "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/123911299_Male_hiker_holding_a_map_in_forest.jpg",
+            "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/123911299_Male_hiker_holding_a_map_in_forest.webp",
+            "alt": "Mother and Daughter Smiling Together",
             "aria_hidden": false,
             "bgColor": "",
             "imageBackground": false,
@@ -2093,15 +2114,15 @@
           "header": "Do braces hurt?",
           "paragraphs": [
             {
-              "text": "Braces shouldn’t cause severe pain, but you may feel some pressure or soreness when brackets are placed or after adjustments. Warm salt-water rinses and over-the-counter pain relievers usually help while you adapt."
+              "text": "Braces generally should not hurt, however you may experience slight discomfort when the braces are first placed. It often takes a few days for your mouth to become accustomed to new appliances; over-the-counter pain relief and orthodontic wax can help during that time."
             }
           ],
           "has_media": false,
           "media_type": "image",
           "image": {
-            "src": "https://d25xczrsvvsqdg.cloudfront.net/cueorthodontics-faq-hero.jpg",
-            "webp": "https://d25xczrsvvsqdg.cloudfront.net/cueorthodontics-faq-hero.webp",
-            "alt": "Smiling Man Working at Desk",
+            "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/466790296_Mature_African_American_Man_Using_Digital_Tablet_S.jpg",
+            "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/466790296_Mature_African_American_Man_Using_Digital_Tablet_S.webp",
+            "alt": "Patient smiling with orthodontic braces in our Emeryville office",
             "aria_hidden": false,
             "bgColor": "",
             "imageBackground": false,
@@ -2110,7 +2131,7 @@
             "forceAlt": "",
             "loading_mask": "",
             "image_selection_hints": {
-              "context_category": "FAQ Hero"
+              "context_category": "Gentle"
             }
           },
           "video": {
@@ -2119,39 +2140,10 @@
           }
         },
         {
-          "header": "How do I care for my teeth with braces or retainers?",
+          "header": "Do I need to brush my teeth more often if I have braces?",
           "paragraphs": [
             {
-              "text": "Brush thoroughly after meals and floss daily. Use fluoride toothpaste, keep retainers clean, avoid sticky or hard foods, and continue routine dental checkups. We provide step-by-step brushing and flossing instructions at appointments."
-            }
-          ],
-          "has_media": false,
-          "media_type": "image",
-          "image": {
-            "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/267343706_portrait_of_a_male_teenager_with_braces_and_mobile.jpg",
-            "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/267343706_portrait_of_a_male_teenager_with_braces_and_mobile.webp",
-            "alt": "Mother and Daughter Smiling Together",
-            "aria_hidden": false,
-            "bgColor": "",
-            "imageBackground": false,
-            "addLoader": false,
-            "objectPosition": "",
-            "forceAlt": "",
-            "loading_mask": "",
-            "image_selection_hints": {
-              "context_category": "All Ages"
-            }
-          },
-          "video": {
-            "type": "embedded",
-            "src": ""
-          }
-        },
-        {
-          "header": "What foods should I avoid or can I eat with braces?",
-          "paragraphs": [
-            {
-              "text": "Avoid chewy, crunchy, sticky, and very hard foods such as bagels, popcorn, caramel, nuts, and hard candy. Foods that are generally safe include soft dairy, pasta, cooked vegetables, soft breads, bananas, and soft desserts without nuts."
+              "text": "With braces, you should brush your teeth at least three times a day and floss daily to clean between brackets and wires. We will demonstrate the best brushing and flossing techniques when your braces are placed to help you keep your teeth healthy throughout treatment."
             }
           ],
           "has_media": false,
@@ -2159,7 +2151,7 @@
           "image": {
             "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/49630490_Smiling_girl_holding_braces_for_teeth.jpg",
             "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/49630490_Smiling_girl_holding_braces_for_teeth.webp",
-            "alt": "Smiling Man Working at Desk",
+            "alt": "Happy Family Portrait",
             "aria_hidden": false,
             "bgColor": "",
             "imageBackground": false,
@@ -2177,18 +2169,18 @@
           }
         },
         {
-          "header": "What should I do for orthodontic emergencies?",
+          "header": "Life With Braces / Emergencies",
           "paragraphs": [
             {
-              "text": "True emergencies are uncommon. For severe pain or appliance problems you can’t manage, call us. Many issues have temporary home remedies: salt-water rinses and soft foods for soreness; orthodontic wax for poking wires; save any loose bracket and bring it in for repair."
+              "text": "Everyday life with braces includes caring for appliances, protecting your mouth during sports, managing loose brackets or wires, and using orthodontic wax or pain relievers when needed. If you have an emergency, contact our office so we can advise you and schedule a timely repair."
             }
           ],
           "has_media": false,
           "media_type": "image",
           "image": {
-            "src": "https://d25xczrsvvsqdg.cloudfront.net/cueorthodontics-home-spotlight.jpg",
-            "webp": "https://d25xczrsvvsqdg.cloudfront.net/cueorthodontics-home-spotlight.webp",
-            "alt": "Mother and Daughter Smiling Together",
+            "src": "https://d25xczrsvvsqdg.cloudfront.net/cueorthodontics-contact-hero.jpg",
+            "webp": "https://d25xczrsvvsqdg.cloudfront.net/cueorthodontics-contact-hero.webp",
+            "alt": "Couple Enjoying Time Together",
             "aria_hidden": false,
             "bgColor": "",
             "imageBackground": false,
@@ -2206,18 +2198,18 @@
           }
         },
         {
-          "header": "What treatment options do you offer?",
+          "header": "What is DentalMonitoring and how does it work?",
           "paragraphs": [
             {
-              "text": "Frazier Orthodontics offers a range of options including Damon Smile and Damon Clear, Spark Clear Aligners, Invisalign<sup>®</sup>, and traditional braces. We also use digital tools such as iTero scanners for accurate, comfortable impressions."
+              "text": "DentalMonitoring is a remote monitoring program that lets you send scans from home so we can review progress between appointments. It reduces in-office visits, helps us catch small issues early, and keeps treatment on schedule. Ask our team how to enroll and whether remote monitoring is right for your case."
             }
           ],
           "has_media": false,
           "media_type": "image",
           "image": {
-            "src": "https://d25xczrsvvsqdg.cloudfront.net/cueorthodontics-about-hero.jpg",
-            "webp": "https://d25xczrsvvsqdg.cloudfront.net/cueorthodontics-about-hero.webp",
-            "alt": "Happy Family Portrait",
+            "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/35296678_Young_female_patient_takes_a_dental_attendance.jpg",
+            "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/35296678_Young_female_patient_takes_a_dental_attendance.webp",
+            "alt": "Mother and Daughter Smiling Together",
             "aria_hidden": false,
             "bgColor": "",
             "imageBackground": false,
@@ -2226,94 +2218,7 @@
             "forceAlt": "",
             "loading_mask": "",
             "image_selection_hints": {
-              "context_category": "Treatments Hero"
-            }
-          },
-          "video": {
-            "type": "embedded",
-            "src": ""
-          }
-        },
-        {
-          "header": "How do I start — scheduling, forms, and what to bring?",
-          "paragraphs": [
-            {
-              "text": "Schedule a complimentary consultation using our appointment request page. Complete patient information before your visit and bring any recent dental records or X-rays. Patient form PDFs are available on the Patient Forms page before your first appointment."
-            }
-          ],
-          "has_media": false,
-          "media_type": "image",
-          "image": {
-            "src": "https://d25xczrsvvsqdg.cloudfront.net/cueorthodontics-contact-hero.jpg",
-            "webp": "https://d25xczrsvvsqdg.cloudfront.net/cueorthodontics-contact-hero.webp",
-            "alt": "Couple Enjoying Time Together",
-            "aria_hidden": false,
-            "bgColor": "",
-            "imageBackground": false,
-            "addLoader": false,
-            "objectPosition": "",
-            "forceAlt": "",
-            "loading_mask": "",
-            "image_selection_hints": {
-              "context_category": "Initial Visit"
-            }
-          },
-          "video": {
-            "type": "embedded",
-            "src": ""
-          }
-        },
-        {
-          "header": "What insurance, payment, and financing options are available?",
-          "paragraphs": [
-            {
-              "text": "We review treatment plans and payment options with each family. The practice offers in-office financing, pay-in-full discounts, third-party financing such as CareCredit, and assistance filing insurance claims. Call the office to discuss details for your plan."
-            }
-          ],
-          "has_media": false,
-          "media_type": "image",
-          "image": {
-            "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/265958166_Group_of_medical_doctors_at_clinic_Unity_concept.jpg",
-            "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/265958166_Group_of_medical_doctors_at_clinic_Unity_concept.webp",
-            "alt": "Smiling Man Working at Desk",
-            "aria_hidden": false,
-            "bgColor": "",
-            "imageBackground": false,
-            "addLoader": false,
-            "objectPosition": "",
-            "forceAlt": "",
-            "loading_mask": "",
-            "image_selection_hints": {
-              "context_category": "Flexible Payments"
-            }
-          },
-          "video": {
-            "type": "embedded",
-            "src": ""
-          }
-        },
-        {
-          "header": "What types of retainers do you offer and how do I care for them?",
-          "paragraphs": [
-            {
-              "text": "Wear retainers as instructed, remove them for eating, store them in their case, and clean them daily. We offer clear, Hawley, and fixed retainers and provide care instructions and a Retainer Protection Program to help protect your investment."
-            }
-          ],
-          "has_media": false,
-          "media_type": "image",
-          "image": {
-            "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/277600288_Team_of_medical_workers_in_hospital_Unity_concept.jpg",
-            "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/277600288_Team_of_medical_workers_in_hospital_Unity_concept.webp",
-            "alt": "Collaborative Team Spirit Moment",
-            "aria_hidden": false,
-            "bgColor": "",
-            "imageBackground": false,
-            "addLoader": false,
-            "objectPosition": "",
-            "forceAlt": "",
-            "loading_mask": "",
-            "image_selection_hints": {
-              "context_category": "Retainer"
+              "context_category": "Digital Practice"
             }
           },
           "video": {
@@ -2332,14 +2237,14 @@
     {
       "seo": {
         "page_title": "FAQ | Frazier Orthodontics",
-        "page_description": "Find answers to common questions about braces, clear aligners, emergencies, scheduling, and patient forms at Frazier Orthodontics.",
-        "page_keywords": "orthodontics, braces, Invisalign, Damon, Spark, FAQ, Frazier Orthodontics",
+        "page_description": "Answers to common orthodontic questions about braces, aligners, treatment timelines, and scheduling at Frazier Orthodontics in River Forest, IL.",
+        "page_keywords": "orthodontics, braces, Invisalign, DentalMonitoring, FAQ, Frazier Orthodontics, River Forest",
         "additional_settings": false,
         "social_meta": {
           "og_meta": {
             "title": "FAQ | Frazier Orthodontics",
-            "description": "Find answers to common questions about braces, clear aligners, emergencies, scheduling, and patient forms at Frazier Orthodontics.",
-            "image": ""
+            "description": "Answers to common orthodontic questions about braces, aligners, treatment timelines, and scheduling at Frazier Orthodontics in River Forest, IL.",
+            "image": "https://d25xczrsvvsqdg.cloudfront.net/andersonbracesmn-contact-hero.jpg"
           }
         }
       }
