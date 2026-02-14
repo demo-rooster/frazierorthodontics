@@ -10,7 +10,7 @@
   },
   "location": [
     {
-      "title": "River Forest Office",
+      "title": "",
       "address": {
         "street": "400 Lathrop Avenue",
         "suite": "Suite 203",
@@ -28,30 +28,38 @@
       "hours": [
         {
           "day": "Monday",
-          "time": "11:00 am \u00013 5:00 pm"
+          "time": "11:00am - 5:00pm"
         },
         {
           "day": "Tuesday",
-          "time": "10:00 am \u00013 5:00 pm"
+          "time": "10:00am - 5:00pm"
         },
         {
           "day": "Wednesday",
-          "time": "11:00 am \u00013 7:00 pm"
+          "time": "11:00am - 7:00pm"
         },
         {
           "day": "Thursday",
-          "time": "11:00 am \u00013 7:00 pm"
+          "time": "11:00am - 7:00pm"
         },
         {
           "day": "Friday",
-          "time": "11:00 am \u00013 5:00 pm"
+          "time": "11:00am - 5:00pm"
+        },
+        {
+          "day": "Saturday",
+          "time": "By appointment only"
+        },
+        {
+          "day": "Sunday",
+          "time": "Closed"
         }
       ],
       "directions_link": {
-        "href": "https://maps.app.goo.gl/oYY8wLLspDiP9dTj7",
+        "href": "https://www.google.com/maps/search/?api=1&query=400+Lathrop+Avenue+Suite+203+River+Forest+IL+60305",
         "label": "Get Directions"
       },
-      "special_note": "Convenient River Forest location with free parking and easy transit access. Complimentary consultations and same-day starts available by request."
+      "special_note": "Complimentary consultations, same-day starts available. Free parking and convenient after-school/evening appointments by request."
     }
   ],
   "typography": [
@@ -65,16 +73,16 @@
     }
   ],
   "top_bar": {
-    "enable_top_bar": true,
+    "enable_top_bar": false,
     "type": "links",
-    "theme": "light",
+    "theme": "dark",
     "content_alignment": "right",
     "links": [
       {
-        "icon": "google",
-        "text": "400 Lathrop Avenue, Suite 203, River Forest, IL 60305",
-        "href": "https://maps.app.goo.gl/oYY8wLLspDiP9dTj7",
-        "label": "View 400 Lathrop Avenue, Suite 203, River Forest, IL 60305 on Google Maps",
+        "icon": "tooth-two-v2",
+        "text": "400 Lathrop Ave, Suite 203, River Forest, IL",
+        "href": "https://www.google.com/maps/search/?api=1&query=400+Lathrop+Avenue+Suite+203+River+Forest+IL+60305",
+        "label": "View 400 Lathrop Ave, Suite 203, River Forest, IL on Google Maps",
         "new_window": true
       },
       {
@@ -86,13 +94,13 @@
       }
     ],
     "announcement": {
-      "icon": "phone",
-      "label": "Schedule a complimentary consultation",
-      "text": "Schedule a complimentary consultation with Dr. Frazier. Call (708) 366-6595 or request an appointment online. Same-day starts available.",
-      "mobile_text": "Book a free consultation",
+      "icon": "tooth-two-v2",
+      "label": "Office Updates",
+      "text": "Accepting new patients — schedule your complimentary consultation today.",
+      "mobile_text": "Office Updates",
       "modal": {
-        "title": "Schedule Your Complimentary Consultation",
-        "text": "<p>We offer complimentary consultations to review your smile goals, evaluate treatment options, and provide a personalized plan. Same-day starts and flexible scheduling are available. Call (708) 366-6595 or request online.</p>"
+        "title": "Office Updates",
+        "text": "<p>We welcome new patients and offer complimentary consultations. Same-day starts, flexible payment plans, and advanced treatment options like Invisalign, Damon, and PROPEL are available. If you need immediate assistance, please call (708) 366-6595.</p>"
       }
     }
   },
@@ -103,41 +111,60 @@
         "button": {
           "type": "nuxt",
           "style": "primary",
-          "label": "Schedule Your Complimentary Consultation",
-          "aria_label": "Schedule your complimentary consultation",
+          "label": "Schedule Consultation",
+          "aria_label": "Schedule a consultation",
           "href": "",
           "path": "/appointment-request",
           "hash": "",
           "external": false,
-          "include_icon": false,
-          "icon": "phone",
-          "color": "black"
+          "include_icon": true,
+          "icon": "tooth-two-v2",
+          "color": "primary"
         }
       }
     ],
-    "floating": true
+    "floating": false
+  },
+  "primary_cta": {
+    "label": "Schedule Consultation",
+    "path": "/contact",
+    "hash": "#form",
+    "external": false,
+    "href": ""
   },
   "footer": {
     "social_media": [
       {
-        "href": "https://www.youtube.com/channel/UCAVM2n9-i1YlZf6d2Pe0kIQ",
-        "icon": "youtube"
+        "href": "https://www.facebook.com/pages/Frazier-James-G-DMD/161685130519557?rf=932285146865298",
+        "icon": "facebook"
       },
       {
-        "href": "https://search.google.com/local/reviews?placeid=ChIJucYTb9g0DogR_9XYzVvMIRQ",
-        "icon": "google"
+        "href": "https://www.instagram.com/frazierorthodontics/",
+        "icon": "instagram"
+      },
+      {
+        "href": "https://x.com/i/flow/login?redirect_after_login=%2Ffrazierortho",
+        "icon": "twitter"
+      },
+      {
+        "href": "https://www.yelp.com/writeareview/biz/aBDFx1WT-hInB3X7IhRAQQ?return_url=%2Fbiz%2FaBDFx1WT-hInB3X7IhRAQQ",
+        "icon": "yelp"
+      },
+      {
+        "href": "https://www.youtube.com/watch?v=Q3zbW7g2qls",
+        "icon": "youtube"
       }
     ],
-    "add_border": true
+    "add_border": false
   },
   "enable_popup": false,
   "popup": {
-    "title": "Schedule your complimentary consultation",
-    "text": "Start your smile journey with a complimentary consultation. Call (708) 366-6595 or request an appointment online.",
+    "title": "Welcome to Frazier Orthodontics",
+    "text": "",
     "image": {
-      "src": "https://www.frazierorthodontics.com/assets/images/spotlight/home.jpg",
+      "src": "https://www.frazierorthodontics.com/assets/images/spotlight/logo.png",
       "webp": "",
-      "alt": "Dr. James Frazier with a patient",
+      "alt": "Frazier Orthodontics logo",
       "aria_hidden": false,
       "bgColor": "",
       "imageBackground": false,
@@ -145,9 +172,7 @@
       "objectPosition": "",
       "forceAlt": "",
       "loading_mask": "",
-      "image_selection_hints": {
-        "context_category": "Contact Hero"
-      }
+      "image_selection_hints": null
     }
   }
 }
